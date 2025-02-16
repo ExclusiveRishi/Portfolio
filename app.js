@@ -45,8 +45,14 @@ function updateProfile(data) {
 function createProjectCard(project) {
     const card = document.createElement('div');
     card.className = 'project-card';
+    
+    // Create title with optional link
+    const titleHTML = project.link 
+        ? `<h3><a href="${project.link}" target="_blank">${project.name}</a></h3>`
+        : `<h3>${project.name}</h3>`;
+        
     card.innerHTML = `
-        <h3>${project.name}</h3>
+        ${titleHTML}
         <p>${project.description}</p>
         <div class="project-stats">
             <span>Technologies: ${project.technologies.join(', ')}</span>

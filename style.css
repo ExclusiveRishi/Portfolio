@@ -80,8 +80,16 @@ body {
 }
 
 .project-card h3 {
-    color: var(--steam-link);
     margin-bottom: 10px;
+}
+
+.project-card h3 a {
+    color: var(--steam-link);
+    text-decoration: none;
+}
+
+.project-card h3 a:hover {
+    text-decoration: underline;
 }
 
 .project-stats {
