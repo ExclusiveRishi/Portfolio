@@ -40,14 +40,6 @@ function updateProfile(data) {
         statElement.textContent = `${key}: ${value}`;
         statsBox.appendChild(statElement);
     });
-
-    // Update achievements
-    const badgeGrid = document.querySelector('.badge-grid');
-    badgeGrid.innerHTML = ''; // Clear existing badges
-    data.achievements.forEach(achievement => {
-        const badge = createBadge(achievement);
-        badgeGrid.appendChild(badge);
-    });
 }
 
 function createProjectCard(project) {
@@ -62,20 +54,6 @@ function createProjectCard(project) {
         </div>
     `;
     return card;
-}
-
-function createBadge(achievement) {
-    const badge = document.createElement('div');
-    badge.className = 'badge';
-    badge.innerHTML = `
-        <img src="${achievement.icon}" alt="${achievement.name}">
-        <p>${achievement.name}</p>
-    `;
-    
-    // Add tooltip with description on hover
-    badge.title = achievement.description;
-    
-    return badge;
 }
 
 // Load data when page loads
