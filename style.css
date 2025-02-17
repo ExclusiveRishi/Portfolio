@@ -26,17 +26,17 @@ body {
 }
 
 .profile-header {
-    display: grid;
-    grid-template-columns: 200px 1fr;
-    gap: 20px;
     background-color: var(--steam-content-bg);
     padding: 20px;
     border-radius: 4px;
     margin-bottom: 20px;
 }
 
-.profile-info {
-    text-align: left;
+.profile-avatar {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 4px;
 }
 
 .profile-info h1 {
@@ -77,16 +77,8 @@ body {
 }
 
 .project-card h3 {
-    margin-bottom: 10px;
-}
-
-.project-card h3 a {
     color: var(--steam-link);
-    text-decoration: none;
-}
-
-.project-card h3 a:hover {
-    text-decoration: underline;
+    margin-bottom: 10px;
 }
 
 .project-stats {
@@ -106,13 +98,15 @@ body {
 
 @media (max-width: 768px) {
     .profile-header {
-        text-align: left;
+        grid-template-columns: 1fr;
+        text-align: center;
     }
 
-    .profile-avatar {
-        margin: 0 auto;
-    }
+.badge:hover {
+    transform: scale(1.05);
+}
 
+@media (max-width: 768px) {
     .content-grid {
         grid-template-columns: 1fr;
     }
