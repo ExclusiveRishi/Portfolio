@@ -13,7 +13,7 @@ function updateProfile(data) {
     // Update profile information
     document.querySelector('.profile-info h1').textContent = data.name;
     document.querySelector('.profile-info p:nth-child(3)').textContent = 
-        `Level ${data.level} ${data.title}`;
+        `${data.title}`;
     document.querySelector('.profile-status').textContent = data.status;
     document.querySelector('.profile-info p:nth-child(4)').textContent = 
         `Currently working on: ${data.currentProject}`;
