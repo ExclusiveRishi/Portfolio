@@ -35,11 +35,8 @@ body {
     margin-bottom: 20px;
 }
 
-.profile-avatar {
-    width: 200px;
-    height: 200px;
-    object-fit: cover;
-    border-radius: 4px;
+.profile-info {
+    text-align: left;
 }
 
 .profile-info h1 {
@@ -109,8 +106,7 @@ body {
 
 @media (max-width: 768px) {
     .profile-header {
-        grid-template-columns: 1fr;
-        text-align: center;
+        text-align: left;
     }
 
     .profile-avatar {

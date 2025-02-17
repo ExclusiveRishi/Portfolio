@@ -18,9 +18,6 @@ function updateProfile(data) {
     document.querySelector('.profile-info p:nth-child(4)').textContent = 
         `Currently working on: ${data.currentProject}`;
     
-    // Update profile avatar
-    document.querySelector('.profile-avatar').src = data.avatar;
-    
     // Clear and update projects
     const projectsContainer = document.querySelector('.main-content');
     const projectsTitle = projectsContainer.querySelector('h2');
