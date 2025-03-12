@@ -37,6 +37,13 @@
             "technologies": ["CSS", "Firefox API"],
             "completionDate": "2023",
             "thumbnail": "/api/placeholder/300/200"
+        },
+        {
+            "name": "Inflatables Demo",
+            "link": "https://sardonicstudios.itch.io/inflatables-test",
+            "technologies": ["Unity", "C#", "Unity NetGameObjects", "Unity Relay"],
+            "completionDate": "2024",
+            "thumbnail": "/api/placeholder/300/200"
         }
     ],
     "stats": {
