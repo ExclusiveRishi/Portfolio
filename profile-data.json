@@ -41,6 +41,7 @@
         {
             "name": "Inflatables Demo",
             "link": "https://sardonicstudios.itch.io/inflatables-test",
+            "description": "A multiplayer physics game where players control characters made of inflatable primitive shapes. Players use needles to strategically pop opponents' body parts, creating dynamic gameplay as character mobility changes with each deflation.",
             "technologies": ["Unity", "C#", "Unity NetGameObjects", "Unity Relay"],
             "completionDate": "2024",
             "thumbnail": "/api/placeholder/300/200"
