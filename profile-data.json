@@ -3,31 +3,15 @@
     "level": 10,
     "title": "Student",
     "status": "Available for Work",
-    "currentProject": "MirrorMaze",
+    "currentProject": "Cool Maze Game",
     "avatar": "/api/placeholder/200/200",
     "projects": [
-        {
-            "name": "Inflatables-Demo",
-            "link": "https://sardonicstudios.itch.io/inflatables-test",
-            "description": "A multiplayer ragdoll physics game where characters made of inflatable materials pop each other's parts using needles. Built with custom assets and primitive shapes for optimized physics calculations.",
-            "technologies": ["Unity3D", "C#", "Blender", "NGO Multiplayer"],
-            "completionDate": "2024",
-            "thumbnail": "/api/placeholder/300/200"
-        },
         {
             "name": "MimicFox",
             "link": "https://github.com/ExclusiveRishi/MimicFox",
             "description": "Text-to-Speech extension for Firefox on Linux, enabling read aloud functionality using Mycroft's mimic",
             "technologies": ["JavaScript", "Python", "Firefox API"],
             "completionDate": "2023",
-            "thumbnail": "/api/placeholder/300/200"
-        },
-        {
-            "name": "SteamPortfolio",
-            "link": "https://github.com/ExclusiveRishi/SteamPortfolio",
-            "description": "Portfolio template designed to replicate the Steam profile interface",
-            "technologies": ["HTML", "CSS", "JavaScript"],
-            "completionDate": "2024",
             "thumbnail": "/api/placeholder/300/200"
         },
         {
@@ -39,11 +23,35 @@
             "thumbnail": "/api/placeholder/300/200"
         },
         {
+            "name": "Banana Quiz",
+            "link": "https://truti.itch.io/bananaquiz",
+            "description": "A Platformer Quiz Game",
+            "technologies": ["Unity", "C#"],
+            "completionDate": "2023",
+            "thumbnail": "/api/placeholder/300/200"
+        },        
+        {
+            "name": "Tower Tumbles",
+            "link": "https://truti.itch.io/tower-tumbles",
+            "description": "An absurd game where you play as a Tower running away from planes trying to crash into you",
+            "technologies": ["Godot", "GDScript"],
+            "completionDate": "2023",
+            "thumbnail": "/api/placeholder/300/200"
+        },
+        {
             "name": "Inflatables Demo",
             "link": "https://sardonicstudios.itch.io/inflatables-test",
             "description": "A multiplayer physics game where players control characters made of inflatable primitive shapes. Players use needles to strategically pop opponents' body parts, creating dynamic gameplay as character mobility changes with each deflation.",
             "technologies": ["Unity", "C#", "Unity NetGameObjects", "Unity Relay"],
             "completionDate": "2024",
+            "thumbnail": "/api/placeholder/300/200"
+        },
+        {
+            "name": "Cool Maze Game",
+            "link": "https://truti.itch.io/cmg",
+            "description": "A multiplayer maze race with funky vector graphics. What makes it even more trippy is when you hit a translucent wall; either the whole screen goes psychedelic, or your keys get jumbled up and mess with your navigation.",
+            "technologies": ["Unity", "C#", "Unity NetGameObjects", "Unity Relay"],
+            "completionDate": "2025",
             "thumbnail": "/api/placeholder/300/200"
         }
     ],
