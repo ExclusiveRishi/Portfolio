@@ -38,6 +38,11 @@
             "name": "Daily Journal",
             "link": "https://github.com/ExclusiveRishi/DailyJournal",
             "description": "A minimal journaling app for Windows. One file per day. That's it."
+        },
+        {
+            "name": "Daily Journal Flutter",
+            "link": "https://github.com/ExclusiveRishi/daily_journal_flutter",
+            "description": "Daily Journal Flutter version"
         }
     ]
 }
