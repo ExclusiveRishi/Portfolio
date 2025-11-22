@@ -1,9 +1,9 @@
 {
     "name": "Rushikesh Prajapati",
     "level": 10,
-    "title": "Student",
+    "title": "Game Developer",
     "status": "Available for Work",
-    "currentProject": "Cool Maze Game",
+    "currentProject": "Kit Cat Paw",
     "avatar": "/api/placeholder/200/200",
     "projects": [
         {
@@ -53,10 +53,26 @@
             "technologies": ["Unity", "C#", "Unity NetGameObjects", "Unity Relay"],
             "completionDate": "2025",
             "thumbnail": "/api/placeholder/300/200"
+        },
+        {
+            "name": "Daily Journal",
+            "link": "https://github.com/ExclusiveRishi/DailyJournal",
+            "description": "A minimal journaling app for Windows. One file per day. That's it.",
+            "technologies": ["WPF", "C#"],
+            "completionDate": "2025",
+            "thumbnail": "/api/placeholder/300/200"
+        },
+        {
+            "name": "Daily Journal Flutter",
+            "link": "https://github.com/ExclusiveRishi/daily_journal_flutter",
+            "description": "Daily Journal Flutter version",
+            "technologies": ["Flutter", "Dart"],
+            "completionDate": "2025",
+            "thumbnail": "/api/placeholder/300/200"
         }
     ],
     "stats": {
-        "Projects Completed": 4,
+        "Projects Completed": 8,
         "Years of Experience": 5,
         "Languages Known": 6
     },
@@ -68,7 +84,7 @@
         },
         {
             "name": "Game Developer",
-            "description": "Created multiplayer games with Unity3D",
+            "description": "Created multiplayer games with Unity3D, and 2D games in Godot",
             "icon": "/api/placeholder/50/50"
         },
         {
