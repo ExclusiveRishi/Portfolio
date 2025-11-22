@@ -3,39 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio - Steam Style</title>
+    <title>Portfolio</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="container">
-        <div class="profile-header">
-            <div class="profile-info">
-                <h1>Developer Name</h1>
-                <div class="profile-status">Available for Work</div>
-                <p>Level 10 Full Stack Developer</p>
-                <p>Currently working on: Amazing Project X</p>
-            </div>
-        </div>
-
-        <div class="content-grid">
-            <div class="main-content">
-                <h2>Featured Projects</h2>
-                <div class="project-card">
-                    <h3>Project Name</h3>
-                    <p>Project description goes here. Highlight key features and technologies used.</p>
-                    <div class="project-stats">
-                        <span>Technologies: JavaScript, HTML, CSS</span>
-                        <span>Completed: January 2024</span>
+        <div class="header">
+            <div class="vertical-line"></div>
+            <div class="content">
+                <div class="top-section">
+                    <h1 class="name" id="fullName">Full Name</h1>
+                    <div class="deets">
+                        <p id="title">Title</p>
+                        <p><a href="#" id="itchLink" target="_blank">truti.itch.io</a></p>
+                        <p id="email">user[at]email[dot]com</p>
                     </div>
                 </div>
-            </div>
-
-            <div class="sidebar">
-                <div class="stats-box">
-                    <h3>Developer Stats</h3>
-                    <p>Projects Completed: 15</p>
-                    <p>Years of Experience: 5</p>
-                    <p>Languages Known: 6</p>
+                <div class="projects-list" id="projectsList">
+                    <!-- Projects will be injected here -->
                 </div>
             </div>
         </div>
