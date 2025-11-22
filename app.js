@@ -14,14 +14,19 @@ function loadProfile(data) {
     const projectsList = document.getElementById('projectsList');
     projectsList.innerHTML = '';
 
-    data.projects.forEach(project => {
+    [...data.projects].reverse().forEach(project => {
         const projectEl = document.createElement('div');
         projectEl.className = 'project-item';
+        const screenshotHtml = project.screenshot 
+            ? `<img class="project-screenshot" src="${project.screenshot}" alt="${project.name} screenshot">`
+            : '';
+        
         projectEl.innerHTML = `
             <div class="project-dot"></div>
             <div class="project-info">
                 <div class="project-name">${project.name}</div>
                 <div class="project-description">${project.description}</div>
+                ${screenshotHtml}
             </div>
         `;
         projectEl.addEventListener('click', () => {
