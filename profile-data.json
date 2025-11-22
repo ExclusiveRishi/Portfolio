@@ -1,96 +1,43 @@
 {
     "name": "Rushikesh Prajapati",
-    "level": 10,
     "title": "Game Developer",
-    "status": "Available for Work",
-    "currentProject": "Kit Cat Paw",
-    "avatar": "/api/placeholder/200/200",
+    "itchLink": "https://truti.itch.io",
+    "email": "rushikeshprajapati01[at]gmail[dot]com",
     "projects": [
         {
             "name": "MimicFox",
             "link": "https://github.com/ExclusiveRishi/MimicFox",
-            "description": "Text-to-Speech extension for Firefox on Linux, enabling read aloud functionality using Mycroft's mimic",
-            "technologies": ["JavaScript", "Python", "Firefox API"],
-            "completionDate": "2023",
-            "thumbnail": "/api/placeholder/300/200"
+            "description": "Text-to-Speech extension for Firefox on Linux, enabling read aloud functionality using Mycroft's mimic"
         },
         {
             "name": "Dark Scroll",
             "link": "https://addons.mozilla.org/en-US/firefox/addon/dark-scroll/",
-            "description": "Firefox extension that implements a global dark scrollbar theme",
-            "technologies": ["CSS", "Firefox API"],
-            "completionDate": "2023",
-            "thumbnail": "/api/placeholder/300/200"
+            "description": "Firefox extension that implements a global dark scrollbar theme"
         },
         {
             "name": "Banana Quiz",
             "link": "https://truti.itch.io/bananaquiz",
-            "description": "A Platformer Quiz Game",
-            "technologies": ["Unity", "C#"],
-            "completionDate": "2023",
-            "thumbnail": "/api/placeholder/300/200"
-        },        
+            "description": "A Platformer Quiz Game"
+        },
         {
             "name": "Tower Tumbles",
             "link": "https://truti.itch.io/tower-tumbles",
-            "description": "An absurd game where you play as a Tower running away from planes trying to crash into you",
-            "technologies": ["Godot", "GDScript"],
-            "completionDate": "2023",
-            "thumbnail": "/api/placeholder/300/200"
+            "description": "An absurd game where you play as a Tower running away from planes trying to crash into you"
         },
         {
             "name": "Inflatables Demo",
             "link": "https://sardonicstudios.itch.io/inflatables-test",
-            "description": "A multiplayer physics game where players control characters made of inflatable primitive shapes. Players use needles to strategically pop opponents' body parts, creating dynamic gameplay as character mobility changes with each deflation.",
-            "technologies": ["Unity", "C#", "Unity NetGameObjects", "Unity Relay"],
-            "completionDate": "2024",
-            "thumbnail": "/api/placeholder/300/200"
+            "description": "A multiplayer physics game where players control characters made of inflatable primitive shapes"
         },
         {
             "name": "Cool Maze Game",
             "link": "https://truti.itch.io/cmg",
-            "description": "A multiplayer maze race with funky vector graphics. What makes it even more trippy is when you hit a translucent wall; either the whole screen goes psychedelic, or your keys get jumbled up and mess with your navigation.",
-            "technologies": ["Unity", "C#", "Unity NetGameObjects", "Unity Relay"],
-            "completionDate": "2025",
-            "thumbnail": "/api/placeholder/300/200"
+            "description": "A multiplayer maze race with funky vector graphics and psychedelic effects"
         },
         {
             "name": "Daily Journal",
             "link": "https://github.com/ExclusiveRishi/DailyJournal",
-            "description": "A minimal journaling app for Windows. One file per day. That's it.",
-            "technologies": ["WPF", "C#"],
-            "completionDate": "2025",
-            "thumbnail": "/api/placeholder/300/200"
-        },
-        {
-            "name": "Daily Journal Flutter",
-            "link": "https://github.com/ExclusiveRishi/daily_journal_flutter",
-            "description": "Daily Journal Flutter version",
-            "technologies": ["Flutter", "Dart"],
-            "completionDate": "2025",
-            "thumbnail": "/api/placeholder/300/200"
-        }
-    ],
-    "stats": {
-        "Projects Completed": 8,
-        "Years of Experience": 5,
-        "Languages Known": 6
-    },
-    "achievements": [
-        {
-            "name": "Full Stack Developer",
-            "description": "Proficient in both frontend and backend technologies",
-            "icon": "/api/placeholder/50/50"
-        },
-        {
-            "name": "Game Developer",
-            "description": "Created multiplayer games with Unity3D, and 2D games in Godot",
-            "icon": "/api/placeholder/50/50"
-        },
-        {
-            "name": "Browser Extension Expert",
-            "description": "Developed multiple Firefox extensions",
-            "icon": "/api/placeholder/50/50"
+            "description": "A minimal journaling app for Windows. One file per day. That's it."
         }
     ]
 }
