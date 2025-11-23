@@ -27,17 +27,33 @@
         {
             "name": "Inflatables Demo",
             "link": "https://sardonicstudios.itch.io/inflatables-test",
-            "description": "A multiplayer physics game where players control characters made of inflatable primitive shapes"
+            "description": "A multiplayer physics game where players control characters made of inflatable primitive shapes",
+            "technicalDetails": [
+                "Built a fully physics-based character controller with realistic movement, eliminating reliance on animations.",
+                "Minimized network traffic and latency using deterministic physics and joint-based character rigs.",
+                "Optimized performance for low-end devices with primitive meshes and efficient architecture.",
+                "Created all custom assets in Blender after rapid self-training."
+            ]
         },
         {
             "name": "Cool Maze Game",
             "link": "https://truti.itch.io/cmg",
-            "description": "A multiplayer maze race with funky vector graphics and psychedelic effects"
+            "description": "A multiplayer maze race with funky vector graphics and psychedelic effects",
+            "technicalDetails": [
+                "Designed a procedural maze system with two meshes and one material, achieving a minimalist vector-style aesthetic",
+                "Implemented peer-to-peer multiplayer with zero server cost using Unity's Distributed Authority",
+                "Optimized code using Singletons and efficient algorithms for real-time maze generation and pathfinding",
+                "Developed custom shaders and original music through self-directed learning"
+            ]
         },
         {
             "name": "Daily Journal",
             "link": "https://github.com/ExclusiveRishi/DailyJournal",
-            "description": "A minimal journaling app for Windows. One file per day. That's it."
+            "description": "A minimal journaling app for Windows. One file per day. That's it.",
+            "technicalDetails": [
+                "Smooth performance on low-power devices.",
+                "Auto save functionality based on user input"
+            ]
         },
         {
             "name": "Daily Journal Flutter",
